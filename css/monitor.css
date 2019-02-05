@@ -1,0 +1,167 @@
+@media screen and (min-width: 824px) {
+
+    html {
+        scroll-behavior: scroll;
+    }
+
+#nav {
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    color: lightblue;
+    box-shadow: 7px 7px 15px grey;
+    padding: 25px 0px 25px 0px;
+}
+#nav ul li {
+    float: left;
+    margin-left: 15%;
+    list-style: none;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+#nav ul li a {
+    text-decoration: none;
+    color: purple;
+}
+.podswietl {
+    opacity: 0.2 ;
+}
+#section1 {
+    width: 50%;
+    height: 500px;
+    float: left;
+    white-space: wrap;
+}
+#section1 img {
+    margin-left: 20%;
+    margin-top: 100px;
+    box-shadow: 7px 7px 15px grey;
+}
+#section1 p {
+    color: #36454f;
+    margin-left: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 100px;
+    text-shadow: 7px 7px 15px grey;
+  
+}
+#section_1 {
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 130px;
+    height: 500px;
+    text-shadow: 7px 7px 15px grey;
+}
+#section_1span1 {
+        position: relative;
+        -webkit-animation: mymove 3s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 3s ;   
+      }
+@-webkit-keyframes mymove {
+        from {left: 1000px;}
+        to {left: 0px;}
+      }
+ #section_1span2 {
+        position: relative;
+        -webkit-animation: mymove 4s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 4s;  
+      } 
+ #section_1span3 {
+        position: relative;
+        -webkit-animation: mymove 5s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 5s ;  
+      }   
+#section_1span4 {
+        position: relative;
+        -webkit-animation: mymove 6s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 6s ;   
+      }
+#section_1span5 {
+        position: relative;
+        -webkit-animation: mymove 7s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 7s ; 
+      }
+#section_1span6 {
+        position: relative;
+        -webkit-animation: mymove 8s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 8s ;
+      }
+#div1 {
+    width: 100%;
+    height: 800px;
+    background-image: url('/image/pink.jpg');
+}
+#section2 {
+    float: left;
+    margin-top: 100px;
+    white-space: nowrap;
+    margin-left: 70px;
+    white-space: wrap;
+}
+#section_2 {
+    float: left;
+}
+#section_2 img {
+    margin-top: 150px;
+    margin-left: 300px;
+}
+#section2 p {
+    color:white;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 25px 90px 10px 0px;
+    font-size: 20px;
+}
+#section3 {
+    width: 100%;
+    height: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#section3 img {
+    width: 80px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 34%;
+}
+#section3 p {
+    font-family: 'Noto Sans', sans-serif;
+    color: #36454f;
+    padding: 25px 90px 10px 80px;
+    font-size: 25px;
+    margin-left: 32%;
+}
+#section4 {
+    width: 100%;
+    height: 800px;
+    background-color:lightblue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right,lightblue , white); /* Standard syntax (must be last) */
+  }
+  #section4 p {
+    font-family: 'Noto Sans', sans-serif;
+    color:#36454f;
+    margin-left: 100px ;
+    padding: 10px;
+  }
+#section4 h1 {
+    font-family: 'Noto Sans', sans-serif;
+    color:#36454f;
+    margin-left: 130px;
+  }
+  #section4 div {
+      margin-top: 100px;
+  }
+#footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 25px;
+    box-shadow: inset 7px 7px 15px grey;
+    padding: 25px 0px 25px 0px;
+}
+footer img {
+    margin-left: 49%; 
+}
+
+
+
+}
+ 
