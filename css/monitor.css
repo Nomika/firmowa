@@ -59,10 +59,10 @@
 }
 #section_1span1 {
         position: relative;
-        -webkit-animation: mymove 3s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove 3s ;   
+        -webkit-animation: mymove1 3s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove1 3s ;   
       }
-@-webkit-keyframes mymove {
+@-webkit-keyframes mymove1 {
         from {left: 1000px;}
         to {left: 0px;}
       }
@@ -73,8 +73,8 @@
       } 
  #section_1span3 {
         position: relative;
-        -webkit-animation: mymove 5s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove 5s ;  
+        -webkit-animation: mymove1 5s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove1 5s ;  
       }   
 #section_1span4 {
         position: relative;
@@ -83,8 +83,8 @@
       }
 #section_1span5 {
         position: relative;
-        -webkit-animation: mymove 7s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove 7s ; 
+        -webkit-animation: mymove1 7s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove1 7s ; 
       }
 #section_1span6 {
         position: relative;
@@ -141,19 +141,98 @@
     background-color:lightblue; /* For browsers that do not support gradients */
     background-image: linear-gradient(to right,lightblue , white); /* Standard syntax (must be last) */
 }
-#section4 p {
-    font-family: 'Noto Sans', sans-serif;
-    color:#36454f;
-    margin-left: 450px;
-    margin-top: 50px;
-   
-  }
+
 #section4 h1 {
     font-family: 'Noto Sans', sans-serif;
     color:#36454f;
     margin-left: 500px;
    padding: 100px 0px 0px 0px;
   }
+  #section4_1 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 450px;
+        position: relative;
+        -webkit-animation: mymove 0.5s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 0.5s ;
+}
+#section4_2 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 450px;
+        position: relative;
+        -webkit-animation: mymove 1s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 1s ;   
+      }
+@-webkit-keyframes mymove {
+        from {left: -1500px;}
+        to {left: 0px;}
+      }
+ #section4_3 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 450px;
+        position: relative;
+        -webkit-animation: mymove 1.5s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 1.5s;  
+      } 
+ #section4_4 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 450px;
+        position: relative;
+        -webkit-animation: mymove 2s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 2s ;  
+      }   
+#section4_5 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 450px;
+        position: relative;
+        -webkit-animation: mymove 2.5s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 2.5s ;   
+      }
+#section4_6 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 450px;
+        position: relative;
+        -webkit-animation: mymove 3s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 3s ; 
+      }
+#section4_7 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 450px;
+        position: relative;
+        -webkit-animation: mymove 3.5s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 3.5s ;
+      }
+#section4_8 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 450px;
+        position: relative;
+        -webkit-animation: mymove 4s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 4s ;
+      }
+#section4_9 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 450px;
+        position: relative;
+        -webkit-animation: mymove 4.5s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 4.5s ;
+      }
 
 #footer {
     width: 100%;
