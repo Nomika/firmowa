@@ -66,6 +66,7 @@
         from {left: 1000px;}
         to {left: 0px;}
       }
+    
  #section_1span2 {
         position: relative;
         -webkit-animation: mymove 4s linear; /* Safari 4.0 - 8.0 */
@@ -141,7 +142,10 @@
     background-color:lightblue; /* For browsers that do not support gradients */
     background-image: linear-gradient(to right,lightblue , white); /* Standard syntax (must be last) */
 }
-
+@-webkit-keyframes mymove {
+    from {left: -1500px;}
+    to {left: 0px;}
+  }
 #section4 h1 {
     font-family: 'Noto Sans', sans-serif;
     color:#36454f;
@@ -166,10 +170,7 @@
         -webkit-animation: mymove 1s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 1s ;   
       }
-@-webkit-keyframes mymove {
-        from {left: -1500px;}
-        to {left: 0px;}
-      }
+
  #section4_3 {
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
