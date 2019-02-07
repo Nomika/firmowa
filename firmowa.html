@@ -20,10 +20,8 @@ $('.nav').mouseleave(function() {
     $(this).removeClass("podswietl");
 });
 });
+   </script>
 
-
-
-        </script>
         <script>
         
         $(document).ready(function(){
@@ -34,18 +32,14 @@ $('.nav').mouseleave(function() {
         </script>
 
 <script>
-    $(document).ready(function() {
-    $('.nav').mouseenter(function() {
-        $(this).addClass("enter");
-    });
-    $('.nav').mouseleave(function() {
-        $(this).removeClass("enter");
-    });
-    });
-    
-    
-    
-            </script>
+        
+    $(document).ready(function(){
+     $(".nav").click(function() {
+        location.reload();
+     });   
+        });
+
+    </script>
 
 </head>
 <body>

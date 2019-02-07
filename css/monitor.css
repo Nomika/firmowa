@@ -66,11 +66,11 @@
         from {left: 1000px;}
         to {left: 0px;}
       }
-    
  #section_1span2 {
         position: relative;
         -webkit-animation: mymove 4s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove 4s;  
+        animation: mymove 4s linear;
+      
       } 
  #section_1span3 {
         position: relative;
