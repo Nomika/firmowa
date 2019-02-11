@@ -92,29 +92,27 @@
         -webkit-animation: mymove 8s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 8s ;
       }
-#div1 {
-    width: 100%;
-    height: 800px;
-    background-image: url('/image/pink.jpg');
-}
 #section2 {
+ width: 100%;
+ height: 800px;
+ background-color: 	#D8BFD8; 
+ background-image: linear-gradient(to right, 	#D8BFD8 , white);
+}
+
+#section2 img {
+    float: left;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+#section2 p {
+    color: #36454f;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 25px 90px 10px 0px;
+    font-size: 20px;
     float: left;
     margin-top: 100px;
     white-space: nowrap;
     margin-left: 70px;
-}
-#section_2 {
-    float: left;
-}
-#section_2 img {
-    margin-top: 150px;
-    margin-left: 300px;
-}
-#section2 p {
-    color:white;
-    font-family: 'Noto Sans', sans-serif;
-    padding: 25px 90px 10px 0px;
-    font-size: 20px;
 }
 #section3 {
     width: 100%;
@@ -126,12 +124,11 @@
     width: 80px;
     height: 80px;
     margin-top: 50px;
-    margin-left: 29%;
+    margin-left: 19%;
 }
 #section3 p {
     font-family: 'Noto Sans', sans-serif;
     color: #36454f;
-    padding: 30px 90px 10px 80px;
     font-size: 25px;
     margin-left: 32%;
 }

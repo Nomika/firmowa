@@ -1,4 +1,4 @@
-@media screen and (min-width: 823px) and (max-width: 1213px) {
+@media screen and (min-width: 823px) and (max-width: 1213px){
 
     html {
         scroll-behavior: scroll;
@@ -7,14 +7,14 @@
 #nav {
     width: 100%;
     height: 50px;
-    font-size: 15px;
+    font-size: 25px;
     color: lightblue;
     box-shadow: 7px 7px 15px grey;
     padding: 25px 0px 25px 0px;
 }
 #nav ul li {
     float: left;
-    margin-left: 10%;
+    margin-left: 15%;
     list-style: none;
     font-family: 'Noto Sans', sans-serif;
 
@@ -30,7 +30,7 @@
     font-family: 'Noto Sans', sans-serif;
     color: #36454f;
     font-size: 30px;
-    padding: 40px 0px 15px 20%;
+    padding: 40px 0px 15px 40%;
     weight: bold;
 }
 #section1 {
@@ -40,11 +40,9 @@
     white-space: wrap;
 }
 #section1 img {
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 100px;
     box-shadow: 7px 7px 15px grey;
-    width: 300px;
-    height: 80px;
 }
 #section1 p {
     color: #36454f;
@@ -94,29 +92,27 @@
         -webkit-animation: mymove 8s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 8s ;
       }
-#div1 {
-    width: 100%;
-    height: 800px;
-    background-image: url('/image/pink.jpg');
-}
 #section2 {
-    float: left;
-    margin-top: 100px;
-    margin-left: 70px;
-    white-space: wrap;
+ width: 100%;
+ height: 800px;
+ background-color: 	#D8BFD8; 
+ background-image: linear-gradient(to right, 	#D8BFD8 , white);
 }
-#section_2 {
+
+#section2 img {
     float: left;
-}
-#section_2 img {
-    margin-top: 50px;
     margin-left: 100px;
+    margin-top: 150px;
 }
 #section2 p {
-    color:white;
+    color: #36454f;
     font-family: 'Noto Sans', sans-serif;
-    padding: 0px 90px 10px 0px;
+    padding: 25px 90px 10px 0px;
     font-size: 20px;
+    float: left;
+    margin-top: 100px;
+    white-space: nowrap;
+    margin-left: 70px;
 }
 #section3 {
     width: 100%;
@@ -128,12 +124,11 @@
     width: 80px;
     height: 80px;
     margin-top: 50px;
-    margin-left: 29%;
+    margin-left: 19%;
 }
 #section3 p {
     font-family: 'Noto Sans', sans-serif;
     color: #36454f;
-    padding: 30px 90px 10px 80px;
     font-size: 25px;
     margin-left: 32%;
 }
@@ -150,14 +145,14 @@
 #section4 h1 {
     font-family: 'Noto Sans', sans-serif;
     color:#36454f;
-    margin-left: 300px;
+    margin-left: 500px;
    padding: 100px 0px 0px 0px;
   }
   #section4_1 {
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 450px;
         position: relative;
         -webkit-animation: mymove 0.5s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 0.5s ;
@@ -166,7 +161,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 450px;
         position: relative;
         -webkit-animation: mymove 1s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 1s ;   
@@ -176,7 +171,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 450px;
         position: relative;
         -webkit-animation: mymove 1.5s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 1.5s;  
@@ -185,7 +180,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 450px;
         position: relative;
         -webkit-animation: mymove 2s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 2s ;  
@@ -194,7 +189,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 450px;
         position: relative;
         -webkit-animation: mymove 2.5s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 2.5s ;   
@@ -203,7 +198,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 450px;
         position: relative;
         -webkit-animation: mymove 3s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 3s ; 
@@ -212,7 +207,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 450px;
         position: relative;
         -webkit-animation: mymove 3.5s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 3.5s ;
@@ -221,7 +216,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 450px;
         position: relative;
         -webkit-animation: mymove 4s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 4s ;
@@ -230,7 +225,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 450px;
         position: relative;
         -webkit-animation: mymove 4.5s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 4.5s ;

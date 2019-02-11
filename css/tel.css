@@ -1,4 +1,4 @@
-@media screen and (max-width: 397px) {
+@media screen and (max-width: 323px) {
 
     html {
         scroll-behavior: scroll;
@@ -7,82 +7,253 @@
 #nav {
     width: 100%;
     height: 50px;
-    background-color: white;
-    font-size: 10px;
+    font-size: 15px;
     color: lightblue;
-    padding: 10px 10px;
-    list-style: none;
+    box-shadow: 7px 7px 15px grey;
+    padding: 25px 0px 25px 0px;
 }
 #nav ul li {
     float: left;
-    margin-left: 30px;
+    margin-left: 10%;
     list-style: none;
     font-family: 'Noto Sans', sans-serif;
+
 }
 #nav ul li a {
     text-decoration: none;
+    color: purple;
 }
-
+.podswietl {
+    opacity: 0.2 ;
+}
+#stronka {
+    font-family: 'Noto Sans', sans-serif;
+    color: #36454f;
+    font-size: 30px;
+    padding: 40px 0px 15px 20%;
+    weight: bold;
+}
 #section1 {
-    width: 100%;
+    width: 50%;
     height: 500px;
-    color:black;
-    font-size: 10px; 
+    float: left;
+    white-space: wrap;
+}
+#section1 img {
+    margin-left: 10%;
+    margin-top: 100px;
+    box-shadow: 7px 7px 15px grey;
+    width: 300px;
+    height: 80px;
 }
 #section1 p {
     color: #36454f;
-    font-size: 10px;
+    margin-left: 50px;
     font-family: 'Noto Sans', sans-serif;
-    padding: 0px 50px 0px 50px;
+    margin-top: 100px;
+    text-shadow: 7px 7px 15px grey;
+    white-space: wrap;
 }
-#section2 {
-    width: 100%;
+#section_1 {
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 130px;
     height: 500px;
-    background-image: url('/image/pink.jpg');
+    text-shadow: 7px 7px 15px grey;
+}
+#section_1span1 {
+        position: relative;
+        -webkit-animation: mymove1 3s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove1 3s ;   
+      }
+@-webkit-keyframes mymove1 {
+        from {left: 1000px;}
+        to {left: 0px;}
+      }
+ #section_1span2 {
+        position: relative;
+        -webkit-animation: mymove 4s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 4s linear;
+      
+      } 
+ #section_1span3 {
+        position: relative;
+        -webkit-animation: mymove1 5s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove1 5s ;  
+      }   
+#section_1span4 {
+        position: relative;
+        -webkit-animation: mymove 6s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 6s ;   
+      }
+#section_1span5 {
+        position: relative;
+        -webkit-animation: mymove1 7s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove1 7s ; 
+      }
+#section_1span6 {
+        position: relative;
+        -webkit-animation: mymove 8s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 8s ;
+      }
+
+#section2 {
+    float: left;
+    margin-top: 100px;
+    margin-left: 70px;
+    white-space: wrap;
+    width: 100%;
+    height: 800px;
+    background-color:	#D8BFD8; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right,	#D8BFD8 , white); /* Standard syntax (must be last) */
+    }
+}
+#section2 img {
+    margin-top: 150px;
+    margin-left: 100px;
+    float: left;
 }
 #section2 p {
-    color: white;
-    padding: 25px 90px 10px 90px;
+    color:white;
     font-family: 'Noto Sans', sans-serif;
+    padding: 0px 90px 10px 0px;
+    font-size: 20px;
 }
 #section3 {
     width: 100%;
-    height: 468px;
+    height: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #section3 img {
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-    margin-left: 150px;
+    width: 80px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 29%;
 }
 #section3 p {
     font-family: 'Noto Sans', sans-serif;
     color: #36454f;
-    padding: 25px 20px 10px 40px;
+    padding: 30px 90px 10px 80px;
+    font-size: 25px;
+    margin-left: 32%;
 }
 #section4 {
     width: 100%;
-    height: 500px;
-    background-image: url('/image/kropla.jpg');
+    height: 800px;
+    background-color:lightblue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right,lightblue , white); /* Standard syntax (must be last) */
 }
-#reha {
-    margin-left: 40px;
+@-webkit-keyframes mymove {
+    from {left: -1500px;}
+    to {left: 0px;}
+  }
+#section4 h1 {
+    font-family: 'Noto Sans', sans-serif;
+    color:#36454f;
+    margin-left: 300px;
+   padding: 100px 0px 0px 0px;
+  }
+  #section4_1 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 250px;
+        position: relative;
+        -webkit-animation: mymove 0.5s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 0.5s ;
+}
+#section4_2 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 250px;
+        position: relative;
+        -webkit-animation: mymove 1s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 1s ;   
+      }
+
+ #section4_3 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 250px;
+        position: relative;
+        -webkit-animation: mymove 1.5s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 1.5s;  
+      } 
+ #section4_4 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 250px;
+        position: relative;
+        -webkit-animation: mymove 2s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 2s ;  
+      }   
+#section4_5 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 250px;
+        position: relative;
+        -webkit-animation: mymove 2.5s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 2.5s ;   
+      }
+#section4_6 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 250px;
+        position: relative;
+        -webkit-animation: mymove 3s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 3s ; 
+      }
+#section4_7 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 250px;
+        position: relative;
+        -webkit-animation: mymove 3.5s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 3.5s ;
+      }
+#section4_8 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 250px;
+        position: relative;
+        -webkit-animation: mymove 4s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 4s ;
+      }
+#section4_9 {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 7px 7px 15px grey;
+    color:#36454f;
+    margin-left: 250px;
+        position: relative;
+        -webkit-animation: mymove 4.5s linear; /* Safari 4.0 - 8.0 */
+        animation: mymove 4.5s ;
+      }
+
+#footer {
+    width: 100%;
+    height: 100px;
     margin-top: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    color:#36454f;
+    font-size: 15px;
+    box-shadow: inset 7px 7px 15px grey;
+    padding: 25px 0px 25px 0px;  
+}
+#footer p {
+    margin-left: 50px;
 }
 footer img {
-    margin-left: 130px;
+    margin-left: 49%; 
 }
 
 
 
-
-
-
-
-
-   
-
-
-
-
 }
+ 
