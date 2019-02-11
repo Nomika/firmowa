@@ -37,14 +37,14 @@
     width: 50%;
     height: 500px;
     float: left;
-    white-space: wrap;
 }
 #section1 img {
     margin-left: 10%;
     margin-top: 100px;
     box-shadow: 7px 7px 15px grey;
-    width: 300px;
-    height: 80px;
+    width: 70px;
+    height: -20px;
+    white-space: wrap;
 }
 #section1 p {
     color: #36454f;
@@ -157,7 +157,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 30px;
         position: relative;
         -webkit-animation: mymove 0.5s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 0.5s ;
@@ -166,7 +166,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 30px;
         position: relative;
         -webkit-animation: mymove 1s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 1s ;   
@@ -176,7 +176,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 30px;
         position: relative;
         -webkit-animation: mymove 1.5s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 1.5s;  
@@ -185,7 +185,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 30px;
         position: relative;
         -webkit-animation: mymove 2s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 2s ;  
@@ -194,7 +194,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 30px;
         position: relative;
         -webkit-animation: mymove 2.5s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 2.5s ;   
@@ -203,7 +203,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 30px;
         position: relative;
         -webkit-animation: mymove 3s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 3s ; 
@@ -212,7 +212,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 30px;
         position: relative;
         -webkit-animation: mymove 3.5s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 3.5s ;
@@ -221,7 +221,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 30px;
         position: relative;
         -webkit-animation: mymove 4s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 4s ;
@@ -230,7 +230,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 250px;
+    margin-left: 30px;
         position: relative;
         -webkit-animation: mymove 4.5s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 4.5s ;

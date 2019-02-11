@@ -43,6 +43,7 @@
     margin-left: 20%;
     margin-top: 100px;
     box-shadow: 7px 7px 15px grey;
+    white-space: wrap;
 }
 #section1 p {
     color: #36454f;
@@ -124,7 +125,7 @@
     width: 80px;
     height: 80px;
     margin-top: 50px;
-    margin-left: 19%;
+    margin-left: 29%;
 }
 #section3 p {
     font-family: 'Noto Sans', sans-serif;
