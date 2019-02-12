@@ -29,7 +29,7 @@
 #stronka {
     font-family: 'Noto Sans', sans-serif;
     color: #36454f;
-    font-size: 30px;
+    font-size: 15px;
     padding: 40px 0px 15px 40%;
     weight: bold;
 }
@@ -113,7 +113,7 @@
     font-size: 20px;
     float: left;
     margin-top: 100px;
-    white-space: nowrap;
+    white-space: wrap;
     margin-left: 70px;
 }
 #section3 {
@@ -148,7 +148,7 @@
 #section4 h1 {
     font-family: 'Noto Sans', sans-serif;
     color:#36454f;
-    margin-left: 300px;
+    margin-left: 150px;
    padding: 100px 0px 0px 0px;
   }
   #section4_1 {

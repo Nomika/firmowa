@@ -29,7 +29,7 @@
 #stronka {
     font-family: 'Noto Sans', sans-serif;
     color: #36454f;
-    font-size: 30px;
+    font-size: 10px;
     padding: 40px 0px 15px 20%;
     weight: bold;
 }
@@ -117,6 +117,7 @@
     font-family: 'Noto Sans', sans-serif;
     padding: 0px 90px 10px 0px;
     font-size: 20px;
+    white-space: wrap;
 }
 #section3 {
     width: 100%;
