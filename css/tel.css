@@ -29,13 +29,13 @@
 #stronka {
     font-family: 'Noto Sans', sans-serif;
     color: #36454f;
-    font-size: 10px;
+    font-size: 15px;
     padding: 40px 0px 15px 20%;
     weight: bold;
 }
 #section1 {
     width: 50%;
-    height: 500px;
+    height: 800px;
     float: left;
 }
 #section1 img {
