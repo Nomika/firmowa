@@ -1,4 +1,4 @@
-@media screen and (max-width: 323px) {
+@media screen and (max-width: 349px) {
 
     html {
         scroll-behavior: scroll;
@@ -14,7 +14,7 @@
 }
 #nav ul li {
     float: left;
-    margin-left: 10%;
+    margin-left: 1%;
     list-style: none;
     font-family: 'Noto Sans', sans-serif;
 
@@ -30,7 +30,7 @@
     font-family: 'Noto Sans', sans-serif;
     color: #36454f;
     font-size: 15px;
-    padding: 40px 0px 15px 20%;
+    padding: 30px 0px 10px 12%;
     weight: bold;
 }
 #section1 {
@@ -97,9 +97,7 @@
       }
 
 #section2 {
-    float: left;
-    margin-top: 100px;
-    margin-left: 70px;
+    margin-top: 10px;
     white-space: wrap;
     width: 100%;
     height: 800px;
@@ -108,35 +106,34 @@
     }
 }
 #section2 img {
-    margin-top: 150px;
-    margin-left: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
     float: left;
 }
 #section2 p {
-    color:white;
+    color:#36454f;
     font-family: 'Noto Sans', sans-serif;
-    padding: 0px 90px 10px 0px;
-    font-size: 20px;
+    font-size: 15px;
     white-space: wrap;
 }
 #section3 {
     width: 100%;
-    height: 800px;
+    height: 400px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 #section3 img {
-    width: 80px;
-    height: 80px;
-    margin-top: 50px;
-    margin-left: 29%;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 17%;
 }
 #section3 p {
     font-family: 'Noto Sans', sans-serif;
     color: #36454f;
-    padding: 30px 90px 10px 80px;
-    font-size: 25px;
-    margin-left: 32%;
+    padding: 10px 0px 10px 15px;
+    font-size: 15px;
+    margin-left: 1%;
 }
 #section4 {
     width: 100%;
@@ -151,7 +148,7 @@
 #section4 h1 {
     font-family: 'Noto Sans', sans-serif;
     color:#36454f;
-    margin-left: 300px;
+    margin-left: 100px;
    padding: 100px 0px 0px 0px;
   }
   #section4_1 {
