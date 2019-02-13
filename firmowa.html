@@ -41,12 +41,33 @@ $('.nav').mouseleave(function() {
         });
 
     </script>
+        <script>
+                $(document).ready(function() {
+                $('.regulamin').mouseenter(function() {
+                    $(this).addClass("podswietl");
+                });
+                $('.regulamin').mouseleave(function() {
+                    $(this).removeClass("podswietl");
+                });
+                });
+                   </script>
+
+<script>
+    $(document).ready(function(){
+ $("i").click(function(){
+     $(".nav").slideToggle("slow", 0,5);
+ });
+
+});
+
+ </script>
 
 </head>
 <body>
     <nav id="nav">
+       
 <ul> 
-<li class="nav"><a href=''><i class="fas fa-align-justify"></i></a></li>
+     <li>   <i class="fas fa-align-justify"></i></li>
 <li class="nav"><a href="#section4">Jak zamówić?</a></li>
 <li class="nav"><a href="#section2">Projekty</a></li>
 <li class="nav"><a href="#section3">Technologie</a></li>
@@ -63,7 +84,7 @@ $('.nav').mouseleave(function() {
         <span id="section_1span1">Nasza firma tworzy <b>profesjonalne strony internetowe</b></span><br><br>
         <span id="section_1span2">i wizytówki firmowe na zamówienie. </span><br><br>
         <span id="section_1span3">Akceptujemy zakup stron na raty.</span> <br><br>
-        <span id="section_1span4"> Więcej informacji w <span class="nav"><b>REGULAMINIE.</b> </span></span><br><br>
+        <span id="section_1span4"> Więcej informacji w <span class="regulamin"><b>REGULAMINIE.</b> </span></span><br><br>
         <span id="section_1span5"> Zapraszamy do kontaktu.</span> <br><br> 
         <span id="section_1span6"> tel: +48 660 40 20 11</span></p><br><br><br><br><br><br><br><br>
          </section>
