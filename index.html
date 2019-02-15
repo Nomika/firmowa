@@ -1,257 +1,129 @@
-@media screen and (max-width: 349px) {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/tel.css" rel="stylesheet" media="only screen and (max-width: 349px)">
+    <link href="css/tablet.css" rel="stylesheet" media="only screen and (min-width: 350px) and (max-width: 822px)">
+    <link href="css/tablet1.css" rel="stylesheet" media="only screen and (min-width: 823px) and (max-width: 1213px)">
+    <link href="css/monitor.css" rel="stylesheet" media="only screen and (min-width: 1214px)">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <title>Firmowa</title>
+    <script>
+$(document).ready(function() {
+$('.nav').mouseenter(function() {
+    $(this).addClass("podswietl");
+});
+$('.nav').mouseleave(function() {
+    $(this).removeClass("podswietl");
+});
+});
+   </script>
 
-    html {
-        scroll-behavior: scroll;
-    }
-
-#nav {
-    width: 100%;
-    height: 50px;
-    font-size: 15px;
-    color: lightblue;
-    box-shadow: 7px 7px 15px grey;
-    padding: 25px 0px 25px 0px;
-}
-#nav ul li {
-    float: left;
-    margin-left: 1%;
-    list-style: none;
-    font-family: 'Noto Sans', sans-serif;
-
-}
-#nav ul li a {
-    text-decoration: none;
-    color: purple;
-}
-.podswietl {
-    opacity: 0.2 ;
-}
-#stronka {
-    font-family: 'Noto Sans', sans-serif;
-    color: #36454f;
-    font-size: 15px;
-    padding: 30px 0px 10px 12%;
-    weight: bold;
-}
-#section1 {
-    width: 50%;
-    height: 800px;
-    float: left;
-}
-#section1 img {
-    margin-left: 10%;
-    margin-top: 100px;
-    box-shadow: 7px 7px 15px grey;
-    width: 70px;
-    height: -20px;
-    white-space: wrap;
-}
-#section1 p {
-    color: #36454f;
-    margin-left: 50px;
-    font-family: 'Noto Sans', sans-serif;
-    margin-top: 100px;
-    text-shadow: 7px 7px 15px grey;
-    white-space: wrap;
-}
-#section_1 {
-    font-family: 'Noto Sans', sans-serif;
-    margin-top: 130px;
-    height: 500px;
-    text-shadow: 7px 7px 15px grey;
-}
-#section_1span1 {
-        position: relative;
-        -webkit-animation: mymove1 3s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove1 3s ;   
-      }
-@-webkit-keyframes mymove1 {
-        from {left: 1000px;}
-        to {left: 0px;}
-      }
- #section_1span2 {
-        position: relative;
-        -webkit-animation: mymove 4s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove 4s linear;
-      
-      } 
- #section_1span3 {
-        position: relative;
-        -webkit-animation: mymove1 5s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove1 5s ;  
-      }   
-#section_1span4 {
-        position: relative;
-        -webkit-animation: mymove 6s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove 6s ;   
-      }
-#section_1span5 {
-        position: relative;
-        -webkit-animation: mymove1 7s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove1 7s ; 
-      }
-#section_1span6 {
-        position: relative;
-        -webkit-animation: mymove 8s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove 8s ;
-      }
-
-#section2 {
-    margin-top: 10px;
-    white-space: wrap;
-    width: 100%;
-    height: 800px;
-    background-color:	#D8BFD8; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right,	#D8BFD8 , white); /* Standard syntax (must be last) */
-    }
-}
-#section2 img {
-    margin-top: 10px;
-    margin-left: 20px;
-
-}
-#section2 p {
-    color:#36454f;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 15px;
-    white-space: wrap;
-}
-#section3 {
-    width: 100%;
-    height: 400px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-#section3 img {
-    width: 50px;
-    height: 50px;
-    margin-top: 30px;
-    margin-left: 17%;
-}
-#section3 p {
-    font-family: 'Noto Sans', sans-serif;
-    color: #36454f;
-    padding: 10px 0px 10px 15px;
-    font-size: 15px;
-    margin-left: 1%;
-}
-#section4 {
-    width: 100%;
-    height: 800px;
-    background-color:lightblue; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right,lightblue , white); /* Standard syntax (must be last) */
-}
-@-webkit-keyframes mymove {
-    from {left: -1500px;}
-    to {left: 0px;}
-  }
-#section4 h1 {
-    font-family: 'Noto Sans', sans-serif;
-    color:#36454f;
-    margin-left: 100px;
-   padding: 100px 0px 0px 0px;
-  }
-  #section4_1 {
-    font-family: 'Noto Sans', sans-serif;
-    text-shadow: 7px 7px 15px grey;
-    color:#36454f;
-    margin-left: 30px;
-        position: relative;
-        -webkit-animation: mymove 0.5s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove 0.5s ;
-}
-#section4_2 {
-    font-family: 'Noto Sans', sans-serif;
-    text-shadow: 7px 7px 15px grey;
-    color:#36454f;
-    margin-left: 30px;
-        position: relative;
-        -webkit-animation: mymove 1s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove 1s ;   
-      }
-
- #section4_3 {
-    font-family: 'Noto Sans', sans-serif;
-    text-shadow: 7px 7px 15px grey;
-    color:#36454f;
-    margin-left: 30px;
-        position: relative;
-        -webkit-animation: mymove 1.5s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove 1.5s;  
-      } 
- #section4_4 {
-    font-family: 'Noto Sans', sans-serif;
-    text-shadow: 7px 7px 15px grey;
-    color:#36454f;
-    margin-left: 30px;
-        position: relative;
-        -webkit-animation: mymove 2s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove 2s ;  
-      }   
-#section4_5 {
-    font-family: 'Noto Sans', sans-serif;
-    text-shadow: 7px 7px 15px grey;
-    color:#36454f;
-    margin-left: 30px;
-        position: relative;
-        -webkit-animation: mymove 2.5s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove 2.5s ;   
-      }
-#section4_6 {
-    font-family: 'Noto Sans', sans-serif;
-    text-shadow: 7px 7px 15px grey;
-    color:#36454f;
-    margin-left: 30px;
-        position: relative;
-        -webkit-animation: mymove 3s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove 3s ; 
-      }
-#section4_7 {
-    font-family: 'Noto Sans', sans-serif;
-    text-shadow: 7px 7px 15px grey;
-    color:#36454f;
-    margin-left: 30px;
-        position: relative;
-        -webkit-animation: mymove 3.5s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove 3.5s ;
-      }
-#section4_8 {
-    font-family: 'Noto Sans', sans-serif;
-    text-shadow: 7px 7px 15px grey;
-    color:#36454f;
-    margin-left: 30px;
-        position: relative;
-        -webkit-animation: mymove 4s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove 4s ;
-      }
-#section4_9 {
-    font-family: 'Noto Sans', sans-serif;
-    text-shadow: 7px 7px 15px grey;
-    color:#36454f;
-    margin-left: 30px;
-        position: relative;
-        -webkit-animation: mymove 4.5s linear; /* Safari 4.0 - 8.0 */
-        animation: mymove 4.5s ;
-      }
-
-#footer {
-    width: 100%;
-    height: 100px;
-    margin-top: 20px;
-    font-family: 'Noto Sans', sans-serif;
-    color:#36454f;
-    font-size: 15px;
-    box-shadow: inset 7px 7px 15px grey;
-    padding: 25px 0px 25px 0px;  
-}
-#footer p {
-    margin-left: 50px;
-}
-footer img {
-    margin-left: 49%; 
-}
-
-
-
-}
+        <script>
+        
+        $(document).ready(function(){
+         $("#foto")
+           .animate({ height: "300px" })
+            });
  
+        </script>
+
+<script>
+        
+    $(document).ready(function(){
+     $(".nav").click(function() {
+        location.reload();
+     });   
+        });
+
+    </script>
+        <script>
+                $(document).ready(function() {
+                $('.regulamin').mouseenter(function() {
+                    $(this).addClass("podswietl");
+                });
+                $('.regulamin').mouseleave(function() {
+                    $(this).removeClass("podswietl");
+                });
+                });
+                   </script>
+
+<script>
+    $(document).ready(function(){
+ $("i").click(function(){
+     $(".nav").slideToggle("slow", 0,5);
+ });
+
+});
+
+ </script>
+
+</head>
+<body>
+    <nav id="nav">
+       
+<ul> 
+     <li>   <i class="fas fa-align-justify"></i></li>
+<li class="nav"><a href="#section4">Jak zamówić?</a></li>
+<li class="nav"><a href="#section2">Projekty</a></li>
+<li class="nav"><a href="#section3">Technologie</a></li>
+<li class="nav"><a href="#section1">O nas</a></li>
+
+</ul>
+    </nav>
+
+    <p id="stronka">www.prostastronka.com.pl</p>
+
+    <section id="section1"><img src="image/foto.jpg" ></section><br>
+    <section id="section_1">
+        <p > 
+        <span id="section_1span1">Nasza firma tworzy <b>profesjonalne strony internetowe</b></span><br><br>
+        <span id="section_1span2">i wizytówki firmowe na zamówienie. </span><br><br>
+        <span id="section_1span3">Akceptujemy zakup stron na raty.</span> <br><br>
+        <span id="section_1span4"> Więcej informacji w <span class="regulamin"><b>REGULAMINIE.</b> </span></span><br><br>
+        <span id="section_1span5"> Zapraszamy do kontaktu.</span> <br><br> 
+        <span id="section_1span6"> tel: +48 660 40 20 11</span></p><br><br><br><br><br><br><br><br>
+         </section>
+   
+    <section id="section2"><p>Nasze projekty powstają we współpracy z klientem,<br><br>
+        dzięki czemu sprzedajemy produkt <br><br>jak najbardziej dopasowany do jego potrzeb.</p> <br>
+<a href="http://www.reharmony.pl"><img src="image/reha.jpg" id="reha" class="nav"> </a><br><br>
+    </section>
+
+    <section id="section3"> <p>Technologie w jakich pracujemy</p>
+        <img src="image/html.png" > <img src="image/jquery.png" ><br
+        > <img src="image/css.png" ><img src="image/response.jpg" > <br>
+         <img src="image/js.png" > <br><br>
+         </section>
+
+    <section id="section4"><h1>Jak zamówić?</h1><br>
+    <p>
+
+    <section id="section4_1">  1. Zgłoś sie do nas telefonicznie i opisz czego potrzebujesz.</section><br>
+    <section id="section4_2">  2. Możesz dosłać adresy stron podobnych do tego co jest Ci potrzebne.</section> <br>
+    <section id="section4_3">  3. Na podstawie Twojego opisu dostaniesz wycenę.</section><br>
+    <section id="section4_4">  4. Tworzymy projekt wstępny graficzny dostosowany do Twoich oczekiwań.</section><br>
+    <section id="section4_5">  5. Po akceptacji projektu ustalamy formę płatności oraz czas trwania umowy.</section><br>
+    <section id="section4_6">  6. Zawieramy umowę.</section><br>
+    <section id="section4_7"> 7. Zajmujemy się tworzeniem strony.</section> <br>
+    <section id="section4_8"> 8. Uruchamiamy stronę.</section><br> 
+    <section id="section4_9"> 9. Opiekujemy się stroną, żeby była zawsze dostępna.</section>
+
+</p>
+            </section>
+
+    <footer id="footer"> 
+    <p> 
+        Kontakt:<br>
+        al. Niepodległości 639<br>
+        80-307 Sopot<br>
+        telefon: +48 660 40 20 11
+
+    </p><a href="#nav"><img src="image/upload.png" ></a></footer>
+</body>
+</html>
+
