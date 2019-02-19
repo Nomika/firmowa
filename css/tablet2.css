@@ -1,4 +1,4 @@
-@media screen and (min-width: 823px) and (max-width: 1213px){
+@media screen and (min-width: 628px) and (max-width: 822px){
 
     html {
         scroll-behavior: scroll;
@@ -14,7 +14,7 @@
 }
 #nav ul li {
     float: left;
-    margin-left: 7%;
+    margin-left: 3%;
     list-style: none;
     font-family: 'Noto Sans', sans-serif;
 
@@ -29,23 +29,21 @@
 #stronka {
     font-family: 'Noto Sans', sans-serif;
     color: #36454f;
-    font-size: 30px;
-    padding: 40px 0px 15px 40%;
+    font-size: 20px;
+    padding: 40px 0px 15px 25%;
     weight: bold;
 }
 #section1 {
     width: 50%;
-    height: 500px;
-    float: left;
+    height: 300px;
     white-space: wrap;
 }
 #section1 img {
     margin-left: 20%;
     margin-top: 100px;
     box-shadow: 7px 7px 15px grey;
-    width: 250px;
+    width: 300px;
     height: auto;
-    white-space: wrap;
     -webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
     clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
 }
@@ -116,7 +114,7 @@
     font-size: 20px;
     float: left;
     margin-top: 100px;
-    white-space: nowrap;
+    white-space: wrap;
     margin-left: 70px;
 }
 #section3 {
@@ -151,14 +149,14 @@
 #section4 h1 {
     font-family: 'Noto Sans', sans-serif;
     color:#36454f;
-    margin-left: 300px;
+    margin-left: 150px;
    padding: 100px 0px 0px 0px;
   }
   #section4_1 {
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 150px;
+    margin-left: 100px;
         position: relative;
         -webkit-animation: mymove 0.5s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 0.5s ;
@@ -167,7 +165,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 150px;
+    margin-left: 100px;
         position: relative;
         -webkit-animation: mymove 1s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 1s ;   
@@ -177,7 +175,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 150px;
+    margin-left: 100px;
         position: relative;
         -webkit-animation: mymove 1.5s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 1.5s;  
@@ -186,7 +184,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 150px;
+    margin-left: 100px;
         position: relative;
         -webkit-animation: mymove 2s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 2s ;  
@@ -195,7 +193,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 150px;
+    margin-left: 100px;
         position: relative;
         -webkit-animation: mymove 2.5s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 2.5s ;   
@@ -204,7 +202,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 150px;
+    margin-left: 100px;
         position: relative;
         -webkit-animation: mymove 3s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 3s ; 
@@ -213,7 +211,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 150px;
+    margin-left: 100px;
         position: relative;
         -webkit-animation: mymove 3.5s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 3.5s ;
@@ -222,7 +220,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 150px;
+    margin-left: 100px;
         position: relative;
         -webkit-animation: mymove 4s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 4s ;
@@ -231,7 +229,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 7px 7px 15px grey;
     color:#36454f;
-    margin-left: 150px;
+    margin-left: 100px;
         position: relative;
         -webkit-animation: mymove 4.5s linear; /* Safari 4.0 - 8.0 */
         animation: mymove 4.5s ;

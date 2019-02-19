@@ -1,4 +1,4 @@
-@media screen and (max-width: 349px) {
+@media screen and (max-width: 499px) {
 
     html {
         scroll-behavior: scroll;
@@ -28,12 +28,12 @@
     font-family: 'Noto Sans', sans-serif;
     color: #36454f;
     font-size: 15px;
-    padding: 30px 0px 10px 12%;
+    padding: 30px 0px 10px 10%;
     weight: bold;
 }
 #section1 {
     width: 50%;
-    height: 300px;
+    height: 200px;
     white-space: wrap;
 }
 
@@ -41,7 +41,7 @@
     margin-left: auto;
     margin-top: 70px;
     box-shadow: 7px 7px 15px grey;
-    width: 150px;
+    width: 200px;
     height: auto;
     -webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
 clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
